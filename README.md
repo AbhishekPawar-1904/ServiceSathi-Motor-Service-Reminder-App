@@ -32,49 +32,17 @@ The system supports three roles: **Admin**, **Garage**, and **Vehicle Owner**, e
 
 ## 🗄 Database Design
 
-### **Garage Table**
-| Column       | Type     |
-|--------------|----------|
-| contact (PK) | String   |
-| name         | String   |
-| address      | String   |
-| pincode      | String   |
-| latitude     | Double   |
-| longitude    | Double   |
-| email        | String   |
-| password     | String   |
-
-### **Vehicle Table**
-| Column       | Type     |
-|--------------|----------|
-| vehicleNo (PK) | String |
-| chassisNo    | String   |
-| name         | String   |
-| ownerName    | String   |
-| contact      | String   |
-| address      | String   |
-| email        | String   |
-| password     | String   |
-
-### **Work Log Table** (`workLog_tbl`)
-| Column        | Type     |
-|---------------|----------|
-| vehicleNo     | String   |
-| title         | String   |
-| description   | String   |
-| date          | Date     |
-| time          | Time     |
-| email         | String   |
-| contact       | String   |
-| address       | String   |
-| garageContact | String   |
-| dueDate       | Date     |
+| Table Name | Columns |
+|------------|---------|
+| **Garage** | contact **(PK)**, name, address, pincode, latitude, longitude, email, password |
+| **Vehicle** | vehicleNo **(PK)**, chassisNo, name, ownerName, contact, address, email, password |
+| **WorkLog** | vehicleNo, title, description, date, time, email, contact, address, garageContact, dueDate |
 
 ---
 
 ## 🛠 Tech Stack
-- **Backend**: Java (Spring MVC / Spring ORM)
-- **Frontend**: JSP, HTML, CSS, JavaScript
+- **Backend**: Java (Spring MVC )
+- **Frontend**: JSP, HTML, CSS
 - **Database**: MySQL (XAMPP/phpMyAdmin)
 - **Server**: Apache Tomcat
 - **Build Tool**: Maven
@@ -87,16 +55,16 @@ The system supports three roles: **Admin**, **Garage**, and **Vehicle Owner**, e
    git clone https://github.com/YOUR-USERNAME/ServiceSathi-Motor-Service-Reminder-App.git
    cd ServiceSathi-Motor-Service-Reminder-App
 
- ### 2 Import into IDE
-- Open **Eclipse** or **IntelliJ IDEA**.
+ ### 2. Import into IDE
+- Open **Eclipse**
 - Select **Import** → **Existing Maven Project**.
 - Choose the project folder.
 
-### 3 Configure Database
+### 3. Configure Database
 - Create a **MySQL database**.
 - Import the provided SQL script: `database.sql`.
 
-### 4 Run the Project
+### 4. Run the Project
 - Deploy the project on **Apache Tomcat**.
 - Open your browser and go to:
  http://localhost:8080/ServiceSathi

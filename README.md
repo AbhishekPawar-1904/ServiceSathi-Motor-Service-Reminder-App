@@ -1,8 +1,20 @@
 # ServiceSathi: Motor Service Reminder App
 
 ## 📌 Overview
-**ServiceSathi** is a Motor Service Reminder application designed to help vehicle owners, garages, and administrators efficiently manage vehicle service schedules, work logs, and reminders.  
-The system supports three roles: **Admin**, **Garage**, and **Vehicle Owner**, each with dedicated functionalities.
+**ServiceSathi** is a comprehensive **Motor Service Reminder application** built to streamline the process of managing vehicle maintenance and service schedules.  
+It bridges the gap between **vehicle owners**, **garages**, and **administrators** by providing a centralized platform for service tracking, work log management, and timely reminders.
+
+With ServiceSathi, garages can efficiently log work details, track upcoming and overdue services, and maintain customer records.  
+Vehicle owners can view their service history, receive reminders for upcoming maintenance, and ensure their vehicles remain in optimal condition.  
+Administrators can manage registered garages, monitor service activities, and assist with vehicle-related queries.
+
+The system supports three distinct roles, each with specific features:  
+- **Admin**: Manage garages and oversee vehicle data.  
+- **Garage**: Add vehicles, log services, and track due dates.  
+- **Vehicle Owner**: Access service history and receive timely reminders.
+
+By automating reminders and providing a structured work log system, **ServiceSathi** reduces manual follow-ups, improves customer satisfaction, and ensures that vehicle maintenance is never overlooked.
+
 
 ---
 
@@ -52,7 +64,7 @@ The system supports three roles: **Admin**, **Garage**, and **Vehicle Owner**, e
 ## 🚀 Installation & Setup
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR-USERNAME/ServiceSathi-Motor-Service-Reminder-App.git
+   git clone https://github.com/AbhishekPawar-1904/ServiceSathi-Motor-Service-Reminder-App.git
    cd ServiceSathi-Motor-Service-Reminder-App
 
  ### 2. Import into IDE
